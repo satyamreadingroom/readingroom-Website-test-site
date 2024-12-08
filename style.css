@@ -5,14 +5,16 @@
     }
 
 .main{
-    background-image: url("/assets/oldrr.jp");
+    background-image: url("/assets/");
 
 }
 .branch{
     display: flex;
-    padding:1rem;
+    padding: 1rem
 }
-
+.branches{
+    margin;
+}
 .gradient {
     background: #833ab4;
     background: linear-gradient(
@@ -21,11 +23,8 @@
     );
     border: 0px;
   }
-.tag{
-    font-size: x-small;
-}
 
-@media only screen and (max-width: 480px) {
+    @media only screen and (max-width: 480px) {
         /* For mobile phones: */
         [class*="small"] {
             max-height: 400px;
@@ -45,4 +44,5 @@
             font-size: x-small;
         }
       }
+      
 
