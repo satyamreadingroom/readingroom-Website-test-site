@@ -27,5 +27,8 @@
             max-height: 400px;
             max-width: 450px;
         }
+        [class*="tag"]{
+            font-size: x-small;
+        }
       }
 
