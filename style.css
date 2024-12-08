@@ -1,0 +1,23 @@
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+    }
+
+.main{
+    background-image: url("/assets/oldrr.jp");
+
+}
+.branch{
+    display: flex;
+}
+
+.gradient {
+    background: #833ab4;
+    background: linear-gradient(
+      to right,
+      #833ab4,#fd1d1d,#fcb045
+    );
+    border: 0px;
+  }
+
