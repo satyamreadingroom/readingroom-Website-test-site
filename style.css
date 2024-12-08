@@ -33,6 +33,14 @@
     [class*="tag"]{
         font-size: xx-small;
     }
+    [class*="branch"]{
+        display: flex;
+        flex-direction:column;
+    }
+    [class*="main"]{
+    background-image: url("https://satyamreadingroom.github.io/readingroom-Website-test-site/assets/satyam-asilmetta-front.jpg");
+
+    }
     }
 @media only screen and (max-width: 768px) {
     /*tablets*/
