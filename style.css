@@ -24,25 +24,25 @@
     border: 0px;
   }
 
-    @media only screen and (max-width: 480px) {
-        /* For mobile phones: */
-        [class*="small"] {
-            max-height: 400px;
-            max-width: 450px;
-        }
-        [class*="tag"]{
-            font-size: xx-small;
-        }
-      }
-      @media only screen and (max-width: 768px) {
-        /*tablets*/
-        [class*="small"] {
-            max-height: 400px;
-            max-width: 600px;
-        }
-        [class*="tag"]{
-            font-size: x-small;
-        }
-      }
-      
+@media only screen and (max-width: 480px) {
+    /* For mobile phones: */
+    [class*="small"] {
+        max-height: 400px;
+        max-width: 450px;
+    }
+    [class*="tag"]{
+        font-size: xx-small;
+    }
+    }
+@media only screen and (max-width: 768px) {
+    /*tablets*/
+    [class*="small"] {
+        max-height: 400px;
+        max-width: 600px;
+    }
+    [class*="tag"]{
+        font-size: x-small;
+    }
+    }
+    
 
